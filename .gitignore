@@ -1,0 +1,27 @@
+# gitignore
+
+**/.git-
+**/.git--
+**/node_modules/**
+**/build/**
+**/design/**
+**/target/**
+**/.setting/**
+**/.vscode/**
+**/dist/**
+**/.cache/**
+/logs
+/dist
+/.cache
+/.public
+.DS_Store
+.yarn-error.log
+.yarn.lock
+nohup.out
+
+
+**/.DS_Store
+**/.yarn-error.log
+**/.yarn.lock
+**/nohup.out
+**/*.class

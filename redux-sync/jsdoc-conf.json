@@ -1,0 +1,36 @@
+{
+  "docset" : {
+    "name": "bindo-order-builder",
+    "enableJavascript": true
+  },
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "markdown": {
+    "tags": ["example"]
+  },
+  "source": {
+    "include": [
+      "src/",
+      "README.md"
+    ],
+    "exclude": [],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false,
+      "default": {
+          "outputSourceFiles": true
+      }
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "docs",
+    "recurse": true
+  }
+}

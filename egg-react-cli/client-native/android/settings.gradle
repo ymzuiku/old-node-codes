@@ -1,0 +1,3 @@
+rootProject.name = 'clientNative'
+
+include ':app'
